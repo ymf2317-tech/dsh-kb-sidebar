@@ -1,0 +1,6 @@
+# dsh-kb-sidebar bundle patch
+# 纯客户端面板：宿主侧只挂一个最小壳，所有逻辑在 lib/client.js。
+# 数据不走本包，全部复用 dsh-knowledge-base-local 的同源 /kb-api。
+- insert:
+    - id: kb-sidebar
+      name: 'dsh-kb-sidebar'
